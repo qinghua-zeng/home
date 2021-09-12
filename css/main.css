@@ -81,3 +81,12 @@ button:hover {
 .logo {
     width: 180px;
 }
+
+.pair {
+    width: auto;
+    display: inline-block;
+}
+
+.marginSmall {
+    margin-bottom: 10px;
+}
