@@ -2,10 +2,14 @@ h3 {
     /* background-color: tomato; */
 }
 
-.R02 {
+.R00 {
     /* background-color: rgb(109, 206, 118); */
     /* direction: ltr; */
     /* float: right; */
+    width: 95%;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 button {
@@ -18,9 +22,10 @@ button {
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #ffcb52;
     /* Green */
-    color: white;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffcb52;
 }
 
 .padding50 {
@@ -88,5 +93,6 @@ button:hover {
 }
 
 .marginSmall {
-    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
