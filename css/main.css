@@ -27,7 +27,7 @@ button:hover {
     padding-bottom: 50px;
 }
 
-.padding20 {
+.paddingSmall {
     padding-bottom: 20px;
 }
 
@@ -55,9 +55,9 @@ button:hover {
 .jumbotron {
     background-color: rgb(255, 255, 255);
     margin: 0%;
-    padding: 10px;
-    margin-top: 2%;
-    margin-left: 5%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footer1 {
