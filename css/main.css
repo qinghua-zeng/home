@@ -44,6 +44,10 @@ button:hover {
     right: 0;
 }
 
+#selection>* {
+    font-weight: bold;
+}
+
 .left {
     left: 0;
 }
@@ -61,7 +65,7 @@ button:hover {
 .jumbotron {
     background-color: rgb(255, 255, 255);
     margin: 0%;
-    padding-left: 5%;
+    /* padding-left: 5%; */
     padding-top: 20px;
     padding-bottom: 0px;
 }
@@ -118,4 +122,15 @@ hr {
     width: 200px;
     height: auto;
     margin-bottom: 20px;
+}
+
+#header>* {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.alignRight {
+    float: right;
+    /* right: 0; */
 }
