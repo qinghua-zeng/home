@@ -113,3 +113,9 @@ hr {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#viewProducts {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
