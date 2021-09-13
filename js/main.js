@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     let showAllPattern = false;
+    let showAllAccessory = false;
 
 
     if (showAllPattern == false) {
@@ -36,9 +37,8 @@ $(document).ready(function() {
             $("#p08").hide();
             $("#p09").hide();
             showAllPattern = false;
-            $("#patternMoreText").text("More");
+            $("#patternMoreText").text("All Patterns");
         }
-
     });
 
 });
