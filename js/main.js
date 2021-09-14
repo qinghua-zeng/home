@@ -4,6 +4,12 @@ $(document).ready(function() {
     let showAllAccessory = false;
     let showAllWidth = false;
 
+
+
+
+
+
+    //1=========================================
     //showAllPattern
     if (showAllPattern == false) {
         $("#p05").hide();
@@ -19,19 +25,6 @@ $(document).ready(function() {
         $("#p09").show();
     }
 
-    //showAllAccessory
-    if (showAllAccessory == false) {
-        $("#a01").hide();
-        $("#a02").hide();
-
-    } else {
-        $("#a01").show();
-        $("#a02").show();
-
-    }
-
-
-    //=========================================
     $("#patternMore").click(function() {
         if (showAllPattern == false) {
             $("#p05").show();
@@ -52,7 +45,18 @@ $(document).ready(function() {
         }
     });
 
-    //=========================================
+    //2=========================================
+    //showAllAccessory
+    if (showAllAccessory == false) {
+        $("#a01").hide();
+        $("#a02").hide();
+
+    } else {
+        $("#a01").show();
+        $("#a02").show();
+
+    }
+
     $("#accessoryMore").click(function() {
         if (showAllPattern == false) {
             $("#a01").show();
@@ -68,15 +72,13 @@ $(document).ready(function() {
     });
 
 
-    //showAllWidth
+    //3 showAllWidth============================
     if (showAllWidth == false) {
         $("#w8090").hide();
         $("#w90100").hide();
         $("#w100110").hide();
         $("#w110120").hide();
         $("#w120130").hide();
-
-
     } else {
         $("#w8090").show();
         $("#w90100").show();
@@ -85,7 +87,7 @@ $(document).ready(function() {
         $("#w120130").show();
     }
 
-    //=========================================
+    //=============
     $("#widthMore").click(function() {
         if (showAllWidth == false) {
             $("#w8090").show();
@@ -103,6 +105,24 @@ $(document).ready(function() {
             $("#w120130").hide();
             showAllWidth = false;
             $("#widthMoreText").text("All");
+        }
+    });
+
+    //=============
+    $("#searchButton").click(function() {
+        var s1 = "https://www.getagate.co.nz/search?search_sale_keyword=";
+        var s2 = $("#searchTerm").val();
+
+        window.location.href = s1 + s2;
+        //alert(s1 + s2);
+    });
+
+    $("#searchTerm").keypress(function(e) {
+        if (e.which == 13) {
+            var s1 = "https://www.getagate.co.nz/search?search_sale_keyword=";
+            var s2 = $("#searchTerm").val();
+            //window.location.href = s1 + s2;
+            window.location.href = s1 + s2;
         }
     });
 
