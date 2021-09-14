@@ -196,10 +196,11 @@ hr {
     border: 3px solid #ffcb52;
     background: #ffcb52;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 15px;
+    font-weight: bold;
 }
 
 
