@@ -33,7 +33,7 @@ $(document).ready(function() {
             $("#p08").show();
             $("#p09").show();
             showAllPattern = true;
-            $("#patternMoreText").text("Less");
+            $("#patternMoreText").text("Show Less");
         } else {
             $("#p05").hide();
             $("#p06").hide();
@@ -41,7 +41,7 @@ $(document).ready(function() {
             $("#p08").hide();
             $("#p09").hide();
             showAllPattern = false;
-            $("#patternMoreText").text("All Patterns");
+            $("#patternMoreText").text("Show All");
         }
     });
 
@@ -62,12 +62,12 @@ $(document).ready(function() {
             $("#a01").show();
             $("#a02").show();
             showAllPattern = true;
-            $("#accessoryMoreText").text("Less");
+            $("#accessoryMoreText").text("Show Less");
         } else {
             $("#a01").hide();
             $("#a02").hide();
             showAllPattern = false;
-            $("#accessoryMoreText").text("All");
+            $("#accessoryMoreText").text("Show All");
         }
     });
 
@@ -96,7 +96,7 @@ $(document).ready(function() {
             $("#w110120").show();
             $("#w120130").show();
             showAllWidth = true;
-            $("#widthMoreText").text("Less");
+            $("#widthMoreText").text("Show Less");
         } else {
             $("#w8090").hide();
             $("#w90100").hide();
@@ -104,7 +104,7 @@ $(document).ready(function() {
             $("#w110120").hide();
             $("#w120130").hide();
             showAllWidth = false;
-            $("#widthMoreText").text("All");
+            $("#widthMoreText").text("Show All");
         }
     });
 
