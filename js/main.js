@@ -12,34 +12,66 @@ $(document).ready(function() {
     //1=========================================
     //showAllPattern
     if (showAllPattern == false) {
-        $("#p05").hide();
-        $("#p06").hide();
-        $("#p07").hide();
-        $("#p08").hide();
-        $("#p09").hide();
+        $("#slsg").hide();
+        $("#swsg").hide();
+        $("#slhf").hide();
+        $("#swhf").hide();
+        $("#slof").hide();
+        $("#swof").hide();
+        $("#slsf").hide();
+        $("#swsf").hide();
+        $("#slcds").hide();
+        $("#swcds").hide();
+        $("#slds").hide();
+        $("#swds").hide();
+        $("#ptg").hide();
+        $("#swcc").hide();
+        $("#swis").hide();
+
     } else {
-        $("#p05").show();
-        $("#p06").show();
-        $("#p07").show();
-        $("#p08").show();
-        $("#p09").show();
+        // $("#p05").show();
+        // $("#p06").show();
+        // $("#p07").show();
+        // $("#p08").show();
+        // $("#p09").show();
     }
 
     $("#patternMore").click(function() {
         if (showAllPattern == false) {
-            $("#p05").show();
-            $("#p06").show();
-            $("#p07").show();
-            $("#p08").show();
-            $("#p09").show();
+            $("#slsg").show();
+            $("#swsg").show();
+            $("#slhf").show();
+            $("#swhf").show();
+            $("#slof").show();
+            $("#swof").show();
+            $("#slsf").show();
+            $("#swsf").show();
+            $("#slcds").show();
+            $("#swcds").show();
+            $("#slds").show();
+            $("#swds").show();
+            $("#ptg").show();
+            $("#swcc").show();
+            $("#swis").show();
+
             showAllPattern = true;
             $("#patternMoreText").text("Show Less");
         } else {
-            $("#p05").hide();
-            $("#p06").hide();
-            $("#p07").hide();
-            $("#p08").hide();
-            $("#p09").hide();
+            $("#slsg").hide();
+            $("#swsg").hide();
+            $("#slhf").hide();
+            $("#swhf").hide();
+            $("#slof").hide();
+            $("#swof").hide();
+            $("#slsf").hide();
+            $("#swsf").hide();
+            $("#slcds").hide();
+            $("#swcds").hide();
+            $("#slds").hide();
+            $("#swds").hide();
+            $("#ptg").hide();
+            $("#swcc").hide();
+            $("#swis").hide();
             showAllPattern = false;
             $("#patternMoreText").text("Show All");
         }
