@@ -1,12 +1,8 @@
 h3 {
-    /* background-color: tomato; */
     font-weight: bold;
 }
 
 .R00 {
-    /* background-color: rgb(109, 206, 118); */
-    /* direction: ltr; */
-    /* float: right; */
     width: 95%;
     margin: auto;
     left: 0;
@@ -95,7 +91,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.logo {
+.logo_tim {
     width: 180px;
 }
 
