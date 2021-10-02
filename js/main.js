@@ -141,7 +141,7 @@ $(document).ready(function() {
     });
 
     //=============
-    $("#searchButton").click(function() {
+    $("#searchButton_tim").click(function() {
         var s1 = "https://www.getagate.co.nz/search?search_sale_keyword=";
         var s2 = $("#searchTerm").val();
 
